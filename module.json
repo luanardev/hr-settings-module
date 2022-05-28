@@ -1,0 +1,13 @@
+{
+    "name": "HRSettings",
+    "alias": "hrsettings",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Luanardev\\Modules\\HRSettings\\Providers\\HRSettingsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

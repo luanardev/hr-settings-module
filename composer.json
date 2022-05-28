@@ -1,0 +1,27 @@
+{
+    "name": "luanardev/hr-settings-module",
+    "type": "laravel-module",
+    "description": "Lumis HR Settings Module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Simpokolwe",
+            "email": "bsimpokolwe@luanar.ac.mw"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+				"Luanardev\\Modules\\HRSettings\\Providers\\HRSettingsServiceProvider"
+			],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Luanardev\\Modules\\HRSettings\\": ""
+        }
+    }
+}

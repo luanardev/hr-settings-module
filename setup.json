@@ -1,0 +1,7 @@
+{
+    "name": "HR Settings",
+
+    "permissions": [
+        "configure_hrm"
+    ]
+}
